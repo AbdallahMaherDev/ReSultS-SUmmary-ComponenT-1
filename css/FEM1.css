@@ -34,7 +34,7 @@ body {
 .card {
     background-color: white;
     border-radius: 25px;
-    width: 595px;
+    width: 735px;
 }
 @media (min-width: 378px) {
     .card {
@@ -62,20 +62,21 @@ body {
     max-width: 50%;
     border-radius: 25px;
     color: white;
-    padding: 32px;
+    padding: 39px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
 .container .Result h1 {
-    font-size: 20px;
-    margin: 0px auto 12px;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0px auto 15px;
     color: var(--Light-lavender);
 }
 .container .Result .prs {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: linear-gradient(to bottom , var(--Violet-blue), 
     hsl(241deg 72% 46% / 32%));
@@ -85,7 +86,7 @@ body {
     flex-direction: column;
 }
 .container .Result .prs span:first-child {
-    font-size: 64px;
+    font-size: 66px;
     color: var(--White);
     font-weight: bold;
 }
@@ -97,48 +98,62 @@ body {
 .container .Result h2 {
     color: var(--White);
     margin-top: 14px;
-    font-size: 26px;
+    font-size: 32px;
+    font-weight: normal;
 }
 .container .Result p {
     color: var(--Light-lavender);
     text-align: center;
-    margin: -7px 3px -3px;
+    margin: -3px 21px 0px;
+    font-size: 18px;
 }
 .container .Summary { 
     width: 50%;
-    padding: 32px 32px 38px;
+    padding: 39px 32px 44px;
     display: flex;
     flex-direction: column;
-    gap: 13.5px;
+    gap: 15px;
 }
-.container .Summary h3 {     margin-bottom: 10px; }
+.container .Summary h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    opacity: 0.8;
+}
 .container .Summary .box { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 11px 16px;
+    padding: 16px 16px;
     border-radius: 8px;
 }
 .container .Summary .red > div {
     color: var(--Light-red);
+    font-weight: 700;
+    font-size: 18px;
 }
 .container .Summary .red  {
     background-color: hsl(0deg 100% 67% / 10%);
 } 
 .container .Summary .yellow > div {
     color: var(--Orangey-yellow);
+    font-weight: 700;
+    font-size: 18px;
 }
 .container .Summary .yellow  {
     background-color: hsl(39deg 100% 56% / 10%);
 } 
 .container .Summary .teal > div {
     color: var(--Green-teal);
+    font-weight: 700;
+    font-size: 18px;
 }
 .container .Summary .teal  {
     background-color: hsl(166deg 100% 37% / 10%)
 } 
 .container .Summary .blue > div {
     color: var(--Violet-blue);
+    font-weight: 700;
+    font-size: 18px;
 }
 .container .Summary .blue  {
     background-color: hsl(256deg 72% 46% / 10%);
@@ -154,11 +169,11 @@ body {
     color: var(--White);
     background-color: var(--Dark-gray-blue);
     border-radius: 100vw;
-    padding: 13px 32px;
+    padding: 18px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 17px 0 0;
+    margin: 25px 0 0;
 }
 .container .Summary a:hover {
     background: linear-gradient(to bottom ,
@@ -170,36 +185,42 @@ body {
     .container .Result {
         max-width: 100%;
         border-radius: 0 0 32px 32px;
-        padding: 26px 26px 46px;
+        padding: 26px 26px 42px;
     }
     .container .Result h1 {
         font-size: 17px;
-        margin: 0px auto 11px;
+        margin: 0px auto 9px;
     }
     .container .Result .prs span:first-child  {
         font-size: 56px;
     }
+    .container .Result .prs span:last-child {
+        margin-top: 2px;
+    }
     .container .Result h2 {
-        margin-top: 5px;
+        margin-top: 9px;
+        font-size: 25px;
     }
     .container .Result p {
         margin: -7px 13px;
         opacity: 0.8;
+        font-size: 17px;
     }
     .container .Summary {
         width: 100%;
-        padding: 20px 30px;
+        padding: 23px 30px;
     }
     .container .Summary h3 {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
+        font-size: 20px;
     }
     .container .Summary .box {
-        padding: 17px 16px;
+        padding: 16px 16px;
         border-radius: 13px;
     }
     .container .Summary a {
         margin: 6px 0 0;
-        padding: 17px 32px;
+        padding: 18px 32px;
     }
     .container .Result .prs {
         width: 137px;
