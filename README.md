@@ -14,11 +14,10 @@ Dynamic score representation
 
 🛠 Technologies Used
 
-HTML5
+HTML
 
-CSS3 (Flexbox & Grid for layout)
+CSS (Flexbox)
 
-git clone (https://github.com/AbdallahMaherDev/ReSultS-SUmmary-ComponenT-1)
 
 Open index.html in your browser to view the component.
 
